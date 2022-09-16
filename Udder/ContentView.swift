@@ -18,6 +18,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
+            Divider()
             Image("milk")
                 .resizable()
                 .padding(.all)
